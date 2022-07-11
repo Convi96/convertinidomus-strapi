@@ -37,6 +37,14 @@
     },
     "Testo": {
       "type": "richtext"
+    },
+    "Larghezza_immagine": {
+      "type": "integer",
+      "required": true
+    },
+    "Altezza_immagine": {
+      "type": "integer",
+      "required": true
     }
   }
 }
