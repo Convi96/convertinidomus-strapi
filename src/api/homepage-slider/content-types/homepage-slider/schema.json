@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homepage_sliders",
+  "info": {
+    "singularName": "homepage-slider",
+    "pluralName": "homepage-sliders",
+    "displayName": "Homepage Slider",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titolo": {
+      "type": "string"
+    },
+    "Immagine": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Posizione_immagine": {
+      "type": "enumeration",
+      "enum": [
+        "Destra",
+        "Sinistra"
+      ],
+      "required": true,
+      "default": "Sinistra"
+    },
+    "Testo": {
+      "type": "richtext"
+    }
+  }
+}
